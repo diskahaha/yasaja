@@ -958,7 +958,7 @@ let ments = [me, jodoh]
 let buttons = [
 { buttonId: 'jodohku', buttonText: { displayText: 'Jodohku' }, type: 1 }
 ]
-await hisoka.sendButtonText(m.chat, buttons, jawab, hisoka.user.name, m, {mentions: ments})
+await hisoka.sendButtonText(m.chat, buttons, jawab, hisoka.user.name, ftroli, {mentions: ments})
 }
 break
 case 'jadian': {
@@ -2214,7 +2214,7 @@ case 'play': case 'ytplay': {
 あ Channel : ${anu.author.url}
 あ Description : ${anu.description}
 あ Url : ${anu.url}`,
-footer: "XZYBOTZ-MD",
+footer: "𝕭𝖔𝖙 • Andii ༢࿔ྀ",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
@@ -3310,7 +3310,7 @@ anu = await fetchJson(`http://api.lolhuman.xyz/api/sms/spam1?apikey=${lolkey}&no
             }
             break
             case 'owner': case 'creator': {
-                hisoka.sendContact(m.chat, global.owner, m)
+                hisoka.sendContact(m.chat, global.owner, ftroli)
             }
             break
 case 'setreply':{
@@ -6823,8 +6823,8 @@ anu = `┌──⭓ *Info Scrip*
 │
 │ ⫹⫺ Library: Baileys-Md
 │ ⫹⫺ Language : Javascript
-│ ⫹⫺ Author: Dika Ardnt 
-│ ⫹⫺ Scrip : https://github.com/DikaArdnt/Hisoka-Morou
+│ ⫹⫺ Author: 𝕭𝖔𝖙 • Andii ༢࿔ྀ
+│ ⫹⫺ Scrip : 𝕭𝖔𝖙 • Andii ༢࿔ྀ 
 │ ⫹⫺ Desc: Jangan DiBully Masih Pemula
 │
 └───────⭓`
@@ -6938,7 +6938,7 @@ anu = ` *${week}, ${calender}*
  ➭ Running On : *RDP*
 └───────⭓
 
-*OWNER*
+*OWNER 𝕭𝖔𝖙 • Andii ༢࿔ྀ*
 │あ < evaluate
 │あ > evaluate
 │あ $ exec
@@ -6981,21 +6981,6 @@ anu = ` *${week}, ${calender}*
 │あ ${prefix}promote
 │あ ${prefix}demote
 
-*Teks Pro Menu*
-│あ ${prefix}magma
-│あ ${prefix}hallowen-text
-│あ ${prefix}neon-light
-│あ ${prefix}broken-glass
-│あ ${prefix}art-papper
-│あ ${prefix}glossy
-│あ ${prefix}water-color
-│あ ${prefix}multi-color
-│あ ${prefix}neon-devil
-│あ ${prefix}sky-text
-│あ ${prefix}luxury
-│あ ${prefix}vintage
-│あ ${prefix}writing
-
  *Downloader Menu*
 │あ ${prefix}tiktok
 │あ ${prefix}tiktokaudio
@@ -7025,24 +7010,6 @@ anu = ` *${week}, ${calender}*
 │あ ${prefix}wikimedia
 │あ ${prefix}ytsearch
 
-*Cecan Menu*
-│あ ${prefix}cecan
-│あ ${prefix}chinese
-│あ ${prefix}indonesia
-│あ ${prefix}japan
-│あ ${prefix}korea
-│あ ${prefix}malaysia
-│あ ${prefix}ptl
-│あ ${prefix}thailand
-│あ ${prefix}vietnam
-
-*Video Menu*
-│あ ${prefix}ghea
-│あ ${prefix}ukty
-│あ ${prefix}asupan
-│あ ${prefix}rikagusriani
-│あ ${prefix}bokep
-│あ ${prefix}bocil
 
 *Hewan Menu*
 │あ ${prefix}fox
@@ -7100,278 +7067,10 @@ anu = ` *${week}, ${calender}*
 │あ ${prefix}tebak lontong
 
 *Random Image*
-│あ ${prefix}aesthetic
-│あ ${prefix}blackpink
-│あ ${prefix}bonekachucky
-│あ ${prefix}wallpaperhacker
-│あ ${prefix}wallpaperpubg
-│あ ${prefix}wallpaperislamic
-│あ ${prefix}teknologi
-│あ ${prefix}mountain
-│あ ${prefix}cyberspace
-│あ ${prefix}programming
 │あ ${prefix}darkjoke
 │あ ${prefix}meme
 │あ ${prefix}doraemon
-│あ ${prefix}pentol
-│あ ${prefix}motor
-│あ ${prefix}renungan
-│あ ${prefix}pokemon
-│あ ${prefix}tatasurya
 
-*Text Pro Menu*
-│あ ${prefix}3dchristmas
-│あ ${prefix}3ddeepsea
-│あ ${prefix}americanflag
-│あ ${prefix}3dscifi
-│あ ${prefix}3drainbow
-│あ ${prefix}3dwaterpipe
-│あ ${prefix}halloweenskeleton
-│あ ${prefix}sketch
-│あ ${prefix}bluecircuit
-│あ ${prefix}space
-│あ ${prefix}metallic
-│あ ${prefix}fiction
-│あ ${prefix}greenhorror
-│あ ${prefix}transformer
-│あ ${prefix}berry
-│あ ${prefix}thunder
-│あ ${prefix}magma
-│あ ${prefix}3dcrackedstone
-│あ ${prefix}3dneonlight
-│あ ${prefix}impressiveglitch
-│あ ${prefix}naturalleaves
-│あ ${prefix}fireworksparkle
-│あ ${prefix}matrix
-│あ ${prefix}dropwater
-│あ ${prefix}harrypotter
-│あ ${prefix}foggywindow
-│あ ${prefix}neondevils
-│あ ${prefix}christmasholiday
-│あ ${prefix}3dgradient
-│あ ${prefix}blackpink
-│あ ${prefix}gluetext
-
- *Ephoto Menu*
-│あ ${prefix}1917
-│あ ${prefix}3d-crack-text-effect-online
-│あ ${prefix}3d-underwater
-│あ ${prefix}3d-wood
-│あ ${prefix}3d-wood2
-│あ ${prefix}3damerican-flag
-│あ ${prefix}3dgalaxy-metal
-│あ ${prefix}3dglue-realistic
-│あ ${prefix}3dgold
-│あ ${prefix}3dgradient
-│あ ${prefix}3dgradient2
-│あ ${prefix}3dmetal-effect
-│あ ${prefix}3dmetal-text
-│あ ${prefix}3dmulticolor-papercut
-│あ ${prefix}3dpig-gif
-│あ ${prefix}3drose-gold
-│あ ${prefix}3druby-stone
-│あ ${prefix}3dsand-engraved
-│あ ${prefix}3dshiny-metallic
-│あ ${prefix}3dsilver
-│あ ${prefix}3dspace
-│あ ${prefix}3dsparkle-christmas
-│あ ${prefix}3dsub-zombie
-│あ ${prefix}3dtext-effect
-│あ ${prefix}3dtext-effect2
-│あ ${prefix}3dtext-effect3
-│あ ${prefix}3dtext-pig
-│あ ${prefix}3dvalentine-cards
-│あ ${prefix}3dvintage-light-bulb
-│あ ${prefix}3dxmas-cards
-│あ ${prefix}3dxmas-cards2
-│あ ${prefix}83day-card
-│あ ${prefix}83day-card2
-│あ ${prefix}83day-card3
-│あ ${prefix}83day-card4
-│あ ${prefix}advanced-glow
-│あ ${prefix}ahri-league-of-legends
-│あ ${prefix}alice-league-of-kings
-│あ ${prefix}amily-arena-of-valor
-│あ ${prefix}angels-wings
-│あ ${prefix}anonymous-neon
-│あ ${prefix}art-shader
-│あ ${prefix}avengers
-│あ ${prefix}azzenka-league-of-kings
-│あ ${prefix}balloon-noel
-│あ ${prefix}balloon-text
-│あ ${prefix}balloons-cards
-│あ ${prefix}balloons-love
-│あ ${prefix}art-shader
-│あ ${prefix}bear
-│あ ${prefix}bear2
-│あ ${prefix}bee
-│あ ${prefix}birthday-cake1
-│あ ${prefix}birthday-cake2
-│あ ${prefix}birthday-cake3
-│あ ${prefix}birthday-cake4
-│あ ${prefix}birthday-cake5
-│あ ${prefix}birthday-cake6
-│あ ${prefix}birthday-cake7
-│あ ${prefix}birthday-cake8
-│あ ${prefix}birthday-cake9
-│あ ${prefix}birthday-cake10
-│あ ${prefix}birthday-cards
-│あ ${prefix}birthdayfoil-balloon
-│あ ${prefix}blackpink
-│あ ${prefix}blackpink-neon
-│あ ${prefix}blackskin-snake
-│あ ${prefix}blood-steel
-│あ ${prefix}blood-frosted
-│あ ${prefix}blood-text
-│あ ${prefix}blood-text2
-│あ ${prefix}blood-wall
-│あ ${prefix}blue-effect
-│あ ${prefix}blue-neon
-│あ ${prefix}blueglass-effect
-│あ ${prefix}bokeh-text
-│あ ${prefix}boom-comic
-│あ ${prefix}broken-glass
-│あ ${prefix}buffalo
-│あ ${prefix}bulb-effect
-│あ ${prefix}bull
-│あ ${prefix}cake-text
-│あ ${prefix}cake-text2
-│あ ${prefix}cake-text3
-│あ ${prefix}candy-text
-│あ ${prefix}captain-america
-│あ ${prefix}card-christmas
-│あ ${prefix}card-christmas2
-│あ ${prefix}cartoon-graffiti
-
- *Foto Funia Menu*
-│あ ${prefix}airline
-│あ ${prefix}arrow-signs
-│あ ${prefix}balloon
-│あ ${prefix}beach-sign
-│あ ${prefix}birthday-cake
-│あ ${prefix}beach-sign
-│あ ${prefix}blood_writing
-│あ ${prefix}books
-│あ ${prefix}bracelet
-│あ ${prefix}cemetery-gates
-│あ ${prefix}chalkboard
-│あ ${prefix}christmas-writing
-│あ ${prefix}cinema-ticket
-│あ ${prefix}cookies_writing
-│あ ${prefix}cross_stitch_text
-│あ ${prefix}denim-emdroidery
-│あ ${prefix}einstein
-│あ ${prefix}foggy_window_writing
-│あ ${prefix}fortune-cookie
-│あ ${prefix}frosty-window-writing
-│あ ${prefix}haunted-hotel
-│あ ${prefix}heart_tattoo
-│あ ${prefix}lifebuoy
-│あ ${prefix}light-graffiti
-│あ ${prefix}lipstick-writing
-│あ ${prefix}love-lock
-│あ ${prefix}movie_marquee
-│あ ${prefix}neon
-│あ ${prefix}neon-writing
-│あ ${prefix}nightmare-writing
-│あ ${prefix}noir
-│あ ${prefix}pendant
-│あ ${prefix}plane-banner
-│あ ${prefix}retro-wave
-│あ ${prefix}sand_writing
-│あ ${prefix}snow_writing
-│あ ${prefix}snow-sign
-│あ ${prefix}soup_letters
-│あ ${prefix}street-sign
-│あ ${prefix}surfing-board
-│あ ${prefix}tree_carving
-│あ ${prefix}typewriter
-│あ ${prefix}water-writing
-│あ ${prefix}watercolour-text
-│あ ${prefix}wooden_sign
-│あ ${prefix}yacht
-
- *Anime Menu*
-│あ ${prefix}waifu
-│あ ${prefix}neko
-│あ ${prefix}shinobu
-│あ ${prefix}megumin
-│あ ${prefix}cosplay
-│あ ${prefix}shota
-│あ ${prefix}loli
-│あ ${prefix}husbu
-│あ ${prefix}ppcp
-│あ ${prefix}wallml
-│あ ${prefix}shinomiya
-│あ ${prefix}yumeko
-│あ ${prefix}tejina
-│あ ${prefix}chiho
-│あ ${prefix}baruto
-│あ ${prefix}kaori
-│あ ${prefix}shizuka
-│あ ${prefix}kaga
-│あ ${prefix}kotori
-│あ ${prefix}mikasa
-│あ ${prefix}akiyama
-│あ ${prefix}gremory
-│あ ${prefix}isuzu
-│あ ${prefix}shina
-│あ ${prefix}kagura
-│あ ${prefix}shinka
-│あ ${prefix}eba
-│あ ${prefix}elaina
-│あ ${prefix}yuri
-│あ ${prefix}erza
-│あ ${prefix}hinata
-│あ ${prefix}minato
-│あ ${prefix}naruto
-│あ ${prefix}sagiri
-│あ ${prefix}nezuko
-│あ ${prefix}rize
-│あ ${prefix}anna
-│あ ${prefix}deidara
-│あ ${prefix}yuki
-│あ ${prefix}asuna
-│あ ${prefix}ayuzawa
-│あ ${prefix}chitoge
-│あ ${prefix}emilia
-│あ ${prefix}hestia
-│あ ${prefix}inori
-│あ ${prefix}itachi
-│あ ${prefix}madara
-│あ ${prefix}sakura
-│あ ${prefix}sasuke
-│あ ${prefix}akira
-│あ ${prefix}itori
-│あ ${prefix}kurumi
-│あ ${prefix}miku
-
- *Nsfw Menu*
-│あ ${prefix}nsfwloli
-│あ ${prefix}ahegao
-│あ ${prefix}ass
-│あ ${prefix}bdsm
-│あ ${prefix}blowjob
-│あ ${prefix}cuckold
-│あ ${prefix}cum
-│あ ${prefix}ero
-│あ ${prefix}femdom
-│あ ${prefix}foot
-│あ ${prefix}gangbanh
-│あ ${prefix}glasses
-│あ ${prefix}hentai
-│あ ${prefix}jahy
-│あ ${prefix}manga
-│あ ${prefix}mstb
-│あ ${prefix}neko
-│あ ${prefix}neko2
-│あ ${prefix}orgy
-│あ ${prefix}panties
-│あ ${prefix}pussy
-│あ ${prefix}tentacles
-│あ ${prefix}things
-│あ ${prefix}yuri
-│あ ${prefix}zettai
 
 *Random Menu*
 │あ ${prefix}namapeople
@@ -7381,38 +7080,7 @@ anu = ` *${week}, ${calender}*
 │あ ${prefix}bucin
 │あ ${prefix}quotes
 │あ ${prefix}randomnama
-│あ ${prefix}cry
-│あ ${prefix}kill
-│あ ${prefix}hug
-│あ ${prefix}pat
-│あ ${prefix}lick
-│あ ${prefix}kiss
-│あ ${prefix}bite
-│あ ${prefix}yeet
-│あ ${prefix}bully
-│あ ${prefix}bonk
-│あ ${prefix}wink
-│あ ${prefix}poke
-│あ ${prefix}nom
-│あ ${prefix}slap
-│あ ${prefix}smile
-│あ ${prefix}wave
-│あ ${prefix}awoo
-│あ ${prefix}blush
-│あ ${prefix}smug
-│あ ${prefix}glomp
-│あ ${prefix}happy
-│あ ${prefix}dance
-│あ ${prefix}cringe
-│あ ${prefix}cuddle
-│あ ${prefix}highfive
-│あ ${prefix}handhold
 │あ ${prefix}dadu
-│あ ${prefix}patrick
-│あ ${prefix}amongus
-│あ ${prefix}gawrgura
-│あ ${prefix}anjing
-│あ ${prefix}bucinstick
 
  *Sound Menu*
 │あ ${prefix}desah
@@ -7497,29 +7165,6 @@ anu = ` *${week}, ${calender}*
 │あ ${prefix}sound79
 │あ ${prefix}sound80
 
-*News Menu*
-│あ ${prefix}antara
-│あ ${prefix}bbc
-│あ ${prefix}cnbc
-│あ ${prefix}cnn
-│あ ${prefix}daily
-│あ ${prefix}detik
-│あ ${prefix}fajar
-
-*Media Menu*
-│あ ${prefix}ssweb
-│あ ${prefix}carbon
-│あ ${prefix}carbon2
-│あ ${prefix}carbon3
-│あ ${prefix}nukiskiri
-│あ ${prefix}nukiskanan
-│あ ${prefix}foliokiri
-│あ ${prefix}foliokanan
-│あ ${prefix}gsuggest
-│あ ${prefix}quotemaker
-│あ ${prefix}quotemaker2
-│あ ${prefix}quotemaker3
-
 *Fun Menu*
 │あ ${prefix}simih
 │あ ${prefix}halah
@@ -7557,25 +7202,12 @@ anu = ` *${week}, ${calender}*
 │あ ${prefix}swm
 
 *Other Menu*
-│あ ${prefix}nenen
-│あ ${prefix}simp
 │あ ${prefix}simih
-│あ ${prefix}bitly [url]
-│あ ${prefix}cuttly [url]
-│あ ${prefix}tinyurl [url]
-│あ ${prefix}shorturl [url]
 │あ ${prefix}translate
 
  *Main Menu*
 │あ ${prefix}ping
 │あ ${prefix}owner
-│あ ${prefix}menu / ${prefix}help / ${prefix}?
-│あ ${prefix}infochat
-│あ ${prefix}quoted
-│あ ${prefix}listpc
-│あ ${prefix}listgc
-│あ ${prefix}listonline
-│あ ${prefix}speedtest
 
 *Database Menu*
 │あ ${prefix}setcmd
@@ -7593,17 +7225,6 @@ anu = ` *${week}, ${calender}*
 │あ ${prefix}next
 │あ ${prefix}keluar
 
- *Islamic Menu*
-│あ ${prefix}iqra
-│あ ${prefix}hadist
-│あ ${prefix}alquran
-│あ ${prefix}juzamma
-│あ ${prefix}kisahnabi
-│あ ${prefix}doaharian
-│あ ${prefix}tafsirsurah
-│あ ${prefix}surahpendek
-│あ ${prefix}asmaulhusna
-│あ ${prefix}alkitab-search
 
  *Sticker Efek*
 │あ ${prefix}wasted
@@ -7631,6 +7252,8 @@ anu = ` *${week}, ${calender}*
 │あ ${prefix}robot
 │あ ${prefix}slow
 │あ ${prefix}tupai
+
+𝕭𝖔𝖙 • Andii ༢࿔ྀ
 `
 let btn = [{
 quickReplyButton: {
