@@ -13,7 +13,7 @@ lolkey = 'Apikey1'
 //━━━━━━━━━━━━━━━[ SETTINGS ]━━━━━━━━━━━━━━━━━//
 global.owner = ['6281285578808','6281285578808','6281285578808','0','6281285578808']
 global.premium = ['6281285578808']
-global.packname = '𝕭𝖔𝖙
+global.packname = '𝕭𝖔𝖙'
 global.author = 'Andii ༢࿔ྀ'
 global.sessionName = 'hisoka'
 global.prefa = ['','!','.','🐦','🐤','🗿']
